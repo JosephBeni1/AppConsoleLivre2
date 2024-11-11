@@ -14,5 +14,14 @@ internal class Program
         rev3.AfficherDetails();
 
 
+
+        Roman rom1 = new Roman("Manga", "Dragon Ball", "Akira Toriyama", 150);
+        Roman rom2 = new Roman("Manga", "Naruto", "Masashi Kishimoto", 175);
+        Roman rom3 = new Roman("Manga", "One Piece", "Eiichiro Oda", 352);
+
+        rom1.AfficherDetails();
+        rom2.AfficherDetails();
+        rom3.AfficherDetails();
+
     }
 }
